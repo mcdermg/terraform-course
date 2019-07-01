@@ -1,3 +1,4 @@
-provider "aws" { 
-    region = "${var.AWS_REGION}"
+provider "aws" {
+  profile = "${var.profile}"
+  region  = "${var.AWS_REGION}"
 }
